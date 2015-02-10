@@ -1,12 +1,15 @@
 # -*- mode: text; fill-column: 75; coding: utf-8-unix; encoding: utf-8 -*-
 
-A refactor of PyRadmon from radmon.org
+A refactor of PyRadmon from http://sourceforge.net/projects/pyradmon-reborn/
+to upload Geiger counter data to radmon.org; our thanks
+to the Auseklis Corporation of Richmond, Virginia for their great code.
 
-This is a refactor of PyRadmon.py from radmon.org to make it
-more Pythonic. The functionality of the code should be about
-the same, but the config file has been extended to allow better
-tuning if the audio functionality. pyaudio can be tricky to
-get right, and you may have more than one sound systems on a machine.
+This is a refactor of PyRadmon.py from radmon.org to make it more Pythonic.
+The functionality of the code should be about the same, but the config file
+has been extended to allow better tuning of the audio functionality.
+pyaudio can be tricky to get right, and you may have more than one sound
+card or audio systems on a machine.  There have been no changes to the
+non-audio classes, expect a couple of minor bugfixes.
 
 The code has been extended with command-line arguments, including
 a --config option, so you can easily use different config files for 

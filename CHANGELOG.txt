@@ -1,3 +1,8 @@
+commit 3ffcead5110d1357e950916c95e9489fe192ddb7
+Date:   Tue Feb 10 06:56:53 2015 +0200
+
+    First commit of the refactor of PyRadmon from radmon.org
+
 commit b5509a0109b90cd99385c615f6c26bf3be1212cb
 Date:   Tue Feb 10 06:31:03 2015 +0200
 
